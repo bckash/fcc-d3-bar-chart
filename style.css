@@ -1,0 +1,32 @@
+
+
+
+#gdp-chart {
+    margin: 1rem;
+    background-color: bisque;
+}
+
+.bar {
+    fill: rgb(94, 94, 172);
+}
+
+.bar:hover {
+    fill: rgb(141, 141, 182);;
+}
+
+
+
+#tooltip {
+    position: absolute;
+    margin-right: 20px;
+    padding: 20px;
+    background-color: bisque;
+    color: black;
+    border: 1px solid black;
+}
+
+#tooltip > span {
+    display: block;
+    text-align: center;
+    margin: 5px;
+}
